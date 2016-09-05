@@ -9,16 +9,15 @@ namespace _00_Hello
         [TestMethod]
         public void TestHello()
         {
-            Assert.AreEqual("hello", Functions.Hello());
+            Assert.AreEqual("Hello", Functions.Hello());
         }
         [TestMethod]
         public void TestHelloFred()
         {
-            Assert.AreEqual("hello, Fred", Functions.Hello("Fred"));
+            Assert.AreEqual("Hello, Fred", Functions.Hello("Fred"));
+            
         }
     }
-
-    internal class Functions
-    {
-    }
+    
+ 
 }
